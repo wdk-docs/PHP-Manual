@@ -16,6 +16,8 @@ Each document in the files collection contains the filename, upload date, and md
 
 For example, the files document is something like:
 
+.. code-block:: php
+
 <?php
 array("_id" => 123456789, "filename" => "foo.txt", "chunkSize" => 3, "length" => 12);
 ?>
@@ -26,6 +28,7 @@ array("files_id" => 123456789, "n" => 1, "data" => new MongoBinData("def"));
 array("files_id" => 123456789, "n" => 2, "data" => new MongoBinData("ghi"));
 array("files_id" => 123456789, "n" => 3, "data" => new MongoBinData("jkl"));
 ?>
+
 Of course, the default chunk size is thousands of bytes, but that makes an unwieldy example.
 
 跨语言的兼容性
