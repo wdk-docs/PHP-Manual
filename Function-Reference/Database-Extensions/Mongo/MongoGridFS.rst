@@ -16,7 +16,7 @@ Each document in the files collection contains the filename, upload date, and md
 
 For example, the files document is something like:
 
-.. code-block:: php
+.. highlight:: php
  <?php
    array("_id" => 123456789, "filename" => "foo.txt", "chunkSize" => 3, "length" => 12);
  ?>
