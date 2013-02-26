@@ -17,11 +17,12 @@ Each document in the files collection contains the filename, upload date, and md
 For example, the files document is something like:
 
 .. code-block:: php
+ <?php
+   array("_id" => 123456789, "filename" => "foo.txt", "chunkSize" => 3, "length" => 12);
+ ?>
 
-<?php
-array("_id" => 123456789, "filename" => "foo.txt", "chunkSize" => 3, "length" => 12);
-?>
 and the chunks documents look like:
+
 <?php
 array("files_id" => 123456789, "n" => 0, "data" => new MongoBinData("abc"));
 array("files_id" => 123456789, "n" => 1, "data" => new MongoBinData("def"));
