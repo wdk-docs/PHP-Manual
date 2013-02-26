@@ -18,16 +18,16 @@ Mongo — MongoDB本地驱动
    :maxdepth: 1
    
    Tutorial
-   Read Preferences
-   Write Concerns
-   SQL to Mongo Mapping Chart
+   Read-Preferences
+   Write-Concerns
+   SQL-to-Mongo-Mapping-Chart
    Connecting
    Writes
    Querying
    Updates
    Security
    Troubleshooting
-   Running the Driver's Tests
+   Running-the-Driver's-Tests
    
 核心类
 -------------
