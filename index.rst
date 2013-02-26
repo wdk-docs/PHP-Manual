@@ -6,7 +6,7 @@
 欢迎使用PHP 手册!
 ======================================
 
-文档翻译自：`PHP Manual <http://www.php.net/manual/en/index.php>`
+文档翻译自：`PHP Manual <http://www.php.net/manual/en/index.php>`_
 
 .. toctree::
    :maxdepth: 2
