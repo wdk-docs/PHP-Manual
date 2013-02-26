@@ -99,8 +99,7 @@ Mongo 函数
    MongoCursorTimeoutException
    MongoConnectionException
    MongoGridFSException
-
-  :doc:`变更日志 <Changelog>`
+   Changelog
 
 
 
