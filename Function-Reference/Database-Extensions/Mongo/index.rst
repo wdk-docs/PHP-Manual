@@ -99,6 +99,12 @@ Mongo 函数
    MongoCursorTimeoutException
    MongoConnectionException
    MongoGridFSException
+
+变更日志
+-------------
+.. toctree::
+   :maxdepth: 1
+   
    Changelog
 
 
