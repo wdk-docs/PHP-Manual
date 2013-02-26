@@ -3,14 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PHP Manual's documentation!
+欢迎使用PHP 手册!
 ======================================
 
-Contents:
+文档翻译自：`PHP Manual <http://www.php.net/manual/en/index.php>`
 
 .. toctree::
    :maxdepth: 2
 
+   Copyright
+   PHP-Manual
+   Getting-Started/index
+   Installation-and-Configuration/index
+   Language-Reference/index
+   Security/index
+   Features/index
+   Function-Reference/index
+   PHP-at-the-Core/index
+   FAQ/index
+   Appendices/index
 
 
 Indices and tables
