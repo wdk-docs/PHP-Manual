@@ -5,6 +5,7 @@ Mongo — MongoDB本地驱动
 -----------
 
 .. toctree::
+   :maxdepth: 1
 
    Requirements
    Installation
@@ -14,7 +15,8 @@ Mongo — MongoDB本地驱动
 -----------
 
 .. toctree::
-
+   :maxdepth: 1
+   
    Tutorial
    Read Preferences
    Write Concerns
@@ -31,6 +33,7 @@ Mongo — MongoDB本地驱动
 -------------
 
 .. toctree::
+   :maxdepth: 1
 
    MongoClient
    MongoDB
@@ -41,6 +44,7 @@ Mongo — MongoDB本地驱动
 -------------
 
 .. toctree::
+   :maxdepth: 1
 
    MongoId
    MongoCode
@@ -58,6 +62,7 @@ GridFS类
 -------------
 
 .. toctree::
+   :maxdepth: 1
 
    MongoGridFS
    MongoGridFSFile
@@ -67,6 +72,7 @@ GridFS类
 -------------
 
 .. toctree::
+   :maxdepth: 1
 
    MongoLog
    MongoPool
@@ -76,6 +82,7 @@ Mongo 函数
 ----------------
 
 .. toctree::
+   :maxdepth: 1
 
    bson_decode
    bson_encode
@@ -83,14 +90,17 @@ Mongo 函数
 异常
 ---------------
 
-   MongoException — The MongoException class
-   MongoResultException — The MongoResultException class
-   MongoCursorException — The MongoCursorException class
-   MongoCursorTimeoutException — The MongoCursorTimeoutException class
-   MongoConnectionException — The MongoConnectionException class
-   MongoGridFSException — The MongoGridFSException class
+.. toctree::
+   :maxdepth: 1
+   
+   MongoException
+   MongoResultException
+   MongoCursorException
+   MongoCursorTimeoutException
+   MongoConnectionException
+   MongoGridFSException
 
-  :doc:`How to get involved <Changelog>`
+  :doc:`变更日志 <Changelog>`
 
 
 
