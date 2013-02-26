@@ -9,7 +9,7 @@ Mongo — MongoDB本地驱动
 
    Requirements
    Installation
-   Runtime Configuration
+   Runtime-Configuration
    
 手册
 -----------
