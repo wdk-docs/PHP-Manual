@@ -3,9 +3,9 @@
 在MongoDB/PHP里添加元数据到文件里
 ====================================
 
-源文件： `a link`_.
+`文件源`_
 
-.. _a link: http://www.lightcubesolutions.com/blog/?p=228
+.. _文件源: http://www.lightcubesolutions.com/blog/?p=228
 
 As a quick followup to the last blog, I was asked to demonstrate how we could include some metadata with a file during or after upload.
 
@@ -15,7 +15,7 @@ We are going to pick up the ball at the point where you’ve got all your MongoD
 
 .. code-block:: php
 
- <?php  
+ <?php
   $date = new MongoDate();  
   //使用 $set 添加元数据到文件  
   $metaData = array('$set' => array(“comment”=>”MongoDB is awesome”, “date”=>$date));  

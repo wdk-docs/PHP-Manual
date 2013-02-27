@@ -41,6 +41,7 @@ Each document in the files collection contains the filename, upload date, and md
 You should be able to use any files created by MongoGridFS with any other drivers, and vice versa. However, some drivers expect that all metadata associated with a file be in a "metadata" field. If you're going to be using other languages, it's a good idea to wrap info you might want them to see in a "metadata" field. For example, instead of:
 
 .. code-block:: php
+
  <?php
   $grid->storeFile("somefile.txt", array("date" => new MongoDate()));
  ?>
@@ -142,8 +143,8 @@ MongoGridFSFile objects contain a field file which contains any file metadata.
 参见
 ------------------
 
-MongoDB 核心文档 » `GridFS <http://docs.mongodb.org/manual/applications/gridfs/>`
+MongoDB 核心文档 » `GridFS <http://docs.mongodb.org/manual/applications/gridfs/>`_
 
-LightCube Solutions blog post on » :ref:`saving-user-uploads`
+LightCube Solutions blog post on » :doc:`saving-user-uploads`
 
-LightCube Solutions blog post on » :ref:`adding-metadata-tofiles`
+LightCube Solutions blog post on » :doc:`adding-metadata-to-files`

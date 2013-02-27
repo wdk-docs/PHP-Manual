@@ -3,9 +3,9 @@
 MongoDB和PHP – GridFS快速浏览
 ================================
 
-源文件： `a link`_.
+`文件源`_
 
-.. _a link: http://www.lightcubesolutions.com/blog/?p=209
+.. _文件源: http://www.lightcubesolutions.com/blog/?p=209
 
 I’ve been tweeting quite a bit about MongoDB over the past few weeks and its time to blog.
 
