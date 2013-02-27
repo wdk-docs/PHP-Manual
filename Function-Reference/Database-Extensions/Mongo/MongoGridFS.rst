@@ -142,6 +142,8 @@ MongoGridFSFile objects contain a field file which contains any file metadata.
 参见
 ------------------
 
-MongoDB core docs on » GridFS
+MongoDB 核心文档 » `GridFS <http://docs.mongodb.org/manual/applications/gridfs/>`
+
 LightCube Solutions blog post on » :ref:`saving-user-uploads`
+
 LightCube Solutions blog post on » :ref:`adding-metadata-tofiles`
