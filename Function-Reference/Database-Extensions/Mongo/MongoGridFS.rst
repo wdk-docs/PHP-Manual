@@ -14,7 +14,7 @@ GridFS is a storage specification all supported drivers implement. Basically, it
 
 Each document in the files collection contains the filename, upload date, and md5 hash. It also contains a unique _id field, which can be used to query the chunks collection for the file's content. Each document in the chunks collection contains a chunk of binary data, a files_id field that matches its file's _id, and the position of this chunk in the overall file.
 
-For example, the files document is something like:
+例如, 文件文档如下:
 
 .. code-block:: php
 
@@ -22,7 +22,7 @@ For example, the files document is something like:
    array("_id" => 123456789, "filename" => "foo.txt", "chunkSize" => 3, "length" => 12);
  ?>
 
-and the chunks documents look like:
+块文件如下:
 
 .. code-block:: php
 
@@ -33,9 +33,9 @@ and the chunks documents look like:
   array("files_id" => 123456789, "n" => 3, "data" => new MongoBinData("jkl"));
  ?>
 
-Of course, the default chunk size is thousands of bytes, but that makes an unwieldy example.
+当然, 默认块大小是千字节, but that makes an unwieldy example.
 
-跨语言的兼容性
+跨语言兼容
 --------------------
 
 You should be able to use any files created by MongoGridFS with any other drivers, and vice versa. However, some drivers expect that all metadata associated with a file be in a "metadata" field. If you're going to be using other languages, it's a good idea to wrap info you might want them to see in a "metadata" field. For example, instead of:
@@ -65,22 +65,22 @@ MongoGridFS represents the files and chunks collections. MongoGridFS extends Mon
   $grid->update(array("filename" => "foo"), $newObj); // update on the files collection
  ?>
 
-Another example of manipulating metadata:
+另一个操作元数据实例:
 
 .. code-block:: php
 
  <?php
-  // save a file
+  // 保存文件
   $id = $grid->storeFile("game.tgz");
   $game = $grid->findOne();
-  // add a downloads counter
+  // 添加一个下载计数器
   $game->file['downloads'] = 0;
   $grid->save($game->file);
-  // increment the counter
+  // 累加计数器
   $grid->update(array("_id" => $id), array('$inc' => array("downloads" => 1)));
  ?>
 
-You can also access the chunks collection from an instance of MongoGridFS:
+你也可以从MongoGridFS实例访问块集合:
 
 .. code-block:: php
 
@@ -143,5 +143,5 @@ MongoGridFSFile objects contain a field file which contains any file metadata.
 ------------------
 
 MongoDB core docs on » GridFS
-LightCube Solutions blog post on » saving user uploads
-LightCube Solutions blog post on » adding metadata to files
+LightCube Solutions blog post on » :ref:`saving-user-uploads`
+LightCube Solutions blog post on » :ref:`adding-metadata-tofiles`
