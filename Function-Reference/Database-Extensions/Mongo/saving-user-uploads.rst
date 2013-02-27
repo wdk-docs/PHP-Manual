@@ -1,3 +1,5 @@
+.. _saving-user-uploads:
+
 MongoDB和PHP – GridFS快速浏览
 ================================
 

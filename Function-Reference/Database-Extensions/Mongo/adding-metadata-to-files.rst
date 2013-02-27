@@ -1,3 +1,5 @@
+.. _adding-metadata-tofiles:
+
 在MongoDB/PHP里添加元数据到文件里
 ====================================
 
