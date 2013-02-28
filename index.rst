@@ -3,28 +3,34 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-欢迎使用PHP 手册!
-======================================
+文档翻译自: `PHP Manual <http://www.php.net/manual/en/index.php>`_
 
-文档翻译自：`PHP Manual <http://www.php.net/manual/en/index.php>`_
+PHP 手册
+======================================
 
 .. toctree::
    :maxdepth: 2
 
-   Copyright
-   PHP-Manual
-   Getting-Started/index
-   Installation-and-Configuration/index
-   Language-Reference/index
-   Security/index
-   Features/index
-   Function-Reference/index
-   PHP-at-the-Core/index
-   FAQ/index
-   Appendices/index
+   copyright
+   manual
+   getting-started/index
+   install/index
+   langref/index
+   security/index
+   features/index
+   funcref/index
+   internals/index
+   faq/index
+   appendices/index
 
+参考
+========
 
-Indices and tables
+文档翻译自: `PHP Manual <http://www.php.net/manual/en/index.php>`_
+
+参考中文译本: `PHP 手册 <http://www.php.net/manual/zh/index.php>`_
+
+索引和表
 ==================
 
 * :ref:`genindex`

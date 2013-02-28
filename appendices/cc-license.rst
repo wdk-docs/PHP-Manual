@@ -1,0 +1,2 @@
+Creative Commons Attribution 3.0
+======================================
