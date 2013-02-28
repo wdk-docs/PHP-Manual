@@ -3,8 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-文档翻译自: `PHP Manual <http://www.php.net/manual/en/index.php>`_
-
 PHP 手册
 ======================================
 
