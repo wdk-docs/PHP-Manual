@@ -13,7 +13,7 @@ PHP 手册
    manual
    getting-started/index
    install/index
-   langref/index
+   language/index
    security/index
    features/index
    funcref/index
