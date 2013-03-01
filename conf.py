@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # PHP Manual documentation build configuration file, created by
-# sphinx-quickstart on Tue Feb 26 16:42:02 2013.
+# sphinx-quickstart on Fri Mar  1 09:59:52 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -18,6 +18,8 @@ import sys, os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
+sys.path.append(os.path.abspath('_exts'))
+
 # -- General configuration -----------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -25,7 +27,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode','phpdomain']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,7 +50,7 @@ copyright = u'2013, Nosy'
 # built documents.
 #
 # The short X.Y version.
-version = '0,1'
+version = '0.1'
 # The full version, including alpha/beta/rc tags.
 release = '0.1'
 
@@ -139,6 +141,8 @@ html_static_path = ['_static']
 
 # If false, no module index is generated.
 #html_domain_indices = True
+
+primary_domain = 'php'
 
 # If false, no index is generated.
 #html_use_index = True

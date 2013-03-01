@@ -1,13 +1,23 @@
 布尔类型
 ===============
 
-这是 :php:meth:`DateTime::setDate` 最简单的类型。boolean 表达了真值，可以为 *TRUE* 或 *FALSE* 。
+这是最简单的类型。boolean 表达了真值，可以为 ``TRUE`` 或 ``FALSE`` 。
 
 .. note:: 布尔类型是 PHP 4 引进的。
 
 语法
 
-要指定一个布尔值，使用关键字 TRUE 或 FALSE。两个都不区分大小写。
+要指定一个布尔值，使用关键字 ``TRUE`` 或 ``FALSE``。两个都不区分大小写。
+
+.. php:class:: MyClass
+
+    Class description
+
+   .. php:method:: method($argument)
+
+   Method description
+
+应用 :php:class:`MyClass` 
 
 .. code-block:: php
 

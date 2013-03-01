@@ -28,6 +28,15 @@ PHP 手册
 
 参考中文译本: `PHP 手册 <http://www.php.net/manual/zh/index.php>`_
 
+引用文件
+===============
+
+.. toctree::
+   :maxdepth: 2
+   
+   funcref/refs-database/Mongo/adding-metadata-to-files
+   funcref/refs-database/Mongo/saving-user-uploads
+
 索引和表
 ==================
 
