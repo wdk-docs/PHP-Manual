@@ -16,7 +16,7 @@ PHP 手册
    language/index
    security/index
    features/index
-   funcref/index
+   functions/index
    internals/index
    faq/index
    appendices/index
@@ -34,8 +34,8 @@ PHP 手册
 .. toctree::
    :maxdepth: 2
    
-   funcref/refs-database/Mongo/adding-metadata-to-files
-   funcref/refs-database/Mongo/saving-user-uploads
+   functions/database/Mongo/adding-metadata-to-files
+   functions/database/Mongo/saving-user-uploads
 
 索引和表
 ==================
