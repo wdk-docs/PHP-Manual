@@ -1,5 +1,7 @@
+PECL
+====
+
 PECL 扩展库安装
-==================
 
 .. toctree::
    :maxdepth: 2

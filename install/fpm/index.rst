@@ -1,5 +1,5 @@
-FastCGI 进程管理器 (FPM)
-=========================
+FPM
+====
 .. toctree::
    :maxdepth: 1
    
@@ -20,3 +20,6 @@ FPM (FastCGI 进程管理器) 用于替换PHP FastCGI的大部分附加功能，
 * 动态/静态子进程产生;
 * 基本SAPI运行状态信息 (类似Apache的 mod_status);
 * 基于php.ini的配置文件.
+
+.. todo:: 研究ptrace
+

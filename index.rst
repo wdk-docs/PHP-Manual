@@ -20,6 +20,7 @@ PHP 手册
    internals/index
    faq/index
    appendices/index
+   todo
 
 参考
 ========
@@ -34,6 +35,7 @@ PHP 手册
 .. toctree::
    :maxdepth: 2
    
+   git
    functions/database/Mongo/adding-metadata-to-files
    functions/database/Mongo/saving-user-uploads
 

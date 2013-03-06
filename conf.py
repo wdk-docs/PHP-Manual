@@ -31,6 +31,10 @@ sys.path.append(os.path.abspath('_exts'))
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode','phpdomain']
 
+#todo 
+
+todo_include_todos = True
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -189,7 +193,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PHPManual.tex', u'PHP Manual Documentation',
+  ('index', 'PHPManual.tex', u'PHP Manual',
    u'Nosy', 'manual'),
 ]
 
@@ -219,7 +223,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'phpmanual', u'PHP Manual Documentation',
+    ('index', 'phpmanual', u'PHP Manual',
      [u'Nosy'], 1)
 ]
 
@@ -233,8 +237,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PHPManual', u'PHP Manual Documentation',
-   u'Nosy', 'PHPManual', 'One line description of project.',
+  ('index', 'PHPManual', u'PHP Manual',
+   u'Nosy', 'PHPManual', 'PHP, 即"PHP: Hypertext Preprocessor"，是一种被广泛应用的开源通用脚本语言，尤其适用于 Web 开发并可嵌入 HTML 中去。',
    'Miscellaneous'),
 ]
 
