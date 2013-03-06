@@ -3,6 +3,8 @@
 本文档中使用的伪类型
 =====================
 
+.. _mixed:
+
 mixed
 -------
 
@@ -10,10 +12,14 @@ mixed 说明一个参数可以接受多种不同的（但并不必须是所有�
 
 例如 gettype() 可以接受所有的 PHP 类型， str_replace() 可以接受字符串和数组。
 
+.. _number:
+
 number
 --------
 
 number 说明一个参数可以是 integer 或者 float。
+
+.. _callback:
 
 callback
 ---------
@@ -77,10 +83,14 @@ Example #1 回调函数(callback)示例
 
 .. Note:: 在 PHP4 中，必须使用引用来创建一个指向实际object，而不是它的一个拷贝。详情请见引用的解释。 In PHP4, it was necessary to use a reference to create a callback that points to the actual object, and not a copy of it. For more details, see References Explained.
 
+.. void:
+
 void
 ------
 
 void 作为返回类型意味着函数的返回值是无用的。void作为参数列表意味着函数不接受任何参数。
+
+.. ...:
 
 ...
 --------
