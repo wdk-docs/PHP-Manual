@@ -5,7 +5,7 @@
    :maxdepth: 2
 
 
-   basic-php/index
+   behavior/index
    utilspec-audio/index
    remote-auth/index
    calendar/index

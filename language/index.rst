@@ -8,10 +8,11 @@
    types/index
    variables/index
    constants/index
+   expressions/index
    operators/index
    control-structures/index
    functions/index
-   oop5/index
+   class/index
    namespaces/index
    exceptions/index
    generators/index
