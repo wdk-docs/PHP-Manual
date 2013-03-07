@@ -1,5 +1,8 @@
 预定义异常
 =================================
 
-class.exception Exception
-class.errorexception ErrorException
+.. toctree::
+   :maxdepth: 2
+
+   exception
+   errorexception

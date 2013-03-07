@@ -1,0 +1,2 @@
+Closure — The Closure class
+===============================

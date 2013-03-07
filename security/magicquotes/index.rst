@@ -1,6 +1,10 @@
 魔术引号
 ===================================
-what 什么是魔术引号
-why 为什么要用魔术引号
-whynot 为什么不用魔术引号
-disabling 关闭魔术引号
+
+.. toctree::
+   :maxdepth: 2
+
+   what
+   why
+   whynot
+   disabling
